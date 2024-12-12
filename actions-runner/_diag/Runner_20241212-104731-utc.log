@@ -117,3 +117,41 @@
 [2024-12-12 10:47:35Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
 [2024-12-12 10:47:35Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\.credentials_rsaparams
 [2024-12-12 10:47:36Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-12 10:50:09Z INFO MessageListener] Message '2002454099988474386' received from session '8dc8f51e-9abc-43bd-bb36-043357a80373'.
+[2024-12-12 10:50:09Z INFO ConfigurationStore] HasCredentials()
+[2024-12-12 10:50:09Z INFO ConfigurationStore] stored True
+[2024-12-12 10:50:09Z INFO CredentialManager] GetCredentialProvider
+[2024-12-12 10:50:09Z INFO CredentialManager] Creating type OAuth
+[2024-12-12 10:50:09Z INFO CredentialManager] Creating credential type: OAuth
+[2024-12-12 10:50:09Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 10:50:09Z INFO ActionsRunServer] EstablishVssConnection
+[2024-12-12 10:50:09Z INFO ActionsRunServer] Establish connection with 100 seconds timeout.
+[2024-12-12 10:50:09Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-12 10:50:10Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-12 10:50:10Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 10:50:10Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 10:50:11Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-12 10:50:12Z INFO JobDispatcher] Job request 4 for plan a1b479b6-9ab9-427e-a622-efb33a2dcdc7 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-12-12 10:50:12Z INFO JobDispatcher] Pull OrchestrationId a1b479b6-9ab9-427e-a622-efb33a2dcdc7.build.__default from JWT claims
+[2024-12-12 10:50:12Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-12-12 10:50:12Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-12-12 10:50:12Z INFO Terminal] WRITE LINE: 2024-12-12 10:50:12Z: Running job: build
+[2024-12-12 10:50:12Z INFO JobDispatcher] Start renew job request 4 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-12 10:50:12Z INFO JobDispatcher] Successfully renew job request 4, job is valid till 12.12.2024 11:00:12
+[2024-12-12 10:50:12Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 10:50:12Z INFO ProcessInvokerWrapper] Starting process:
+[2024-12-12 10:50:12Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin\Runner.Worker.exe'
+[2024-12-12 10:50:12Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1548 2040'
+[2024-12-12 10:50:12Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 10:50:12Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-12-12 10:50:12Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-12-12 10:50:12Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-12-12 10:50:12Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-12-12 10:50:12Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-12-12 10:50:12Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-12-12 10:50:12Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-12-12 10:50:13Z INFO ProcessInvokerWrapper] Process started with process id 15560, waiting for process exit.
+[2024-12-12 10:50:13Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-12 10:50:13Z INFO ProcessChannel] Sending message of length 24442, with hash '882c11ffbf0cd8a44be0f869aeb16e6c81686784b615677e43a797abc9402ea3'
+[2024-12-12 10:50:13Z INFO JobNotification] Entering JobStarted Notification
+[2024-12-12 10:50:13Z INFO JobNotification] Entering StartMonitor

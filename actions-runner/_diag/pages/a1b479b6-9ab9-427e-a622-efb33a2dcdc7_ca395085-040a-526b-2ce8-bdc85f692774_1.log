@@ -1,0 +1,72 @@
+﻿2024-12-12T10:50:14.7571448Z Current runner version: '2.321.0'
+2024-12-12T10:50:14.7581048Z Runner name: 'PYATANIN'
+2024-12-12T10:50:14.7581839Z Runner group name: 'Default'
+2024-12-12T10:50:14.7582652Z Machine name: 'PYATANIN'
+2024-12-12T10:50:14.7586097Z ##[group]GITHUB_TOKEN Permissions
+2024-12-12T10:50:14.7588773Z Contents: read
+2024-12-12T10:50:14.7589243Z Metadata: read
+2024-12-12T10:50:14.7589681Z Packages: read
+2024-12-12T10:50:14.7590167Z ##[endgroup]
+2024-12-12T10:50:14.7593014Z Secret source: Actions
+2024-12-12T10:50:14.7593612Z Prepare workflow directory
+2024-12-12T10:50:14.8204222Z Prepare all required actions
+2024-12-12T10:50:14.8240159Z Getting action download info
+2024-12-12T10:50:15.1891553Z Download action repository 'actions/checkout@v2' (SHA:ee0669bd1cc54295c223e0bb666b733df41de1c5)
+2024-12-12T10:50:17.5826279Z Download action repository 'actions/setup-python@v2' (SHA:e9aba2c848f5ebd159c070c61ea2c4e2b122355e)
+2024-12-12T10:50:21.2953465Z Complete job name: build
+2024-12-12T10:50:21.3857831Z ##[group]Run actions/checkout@v2
+2024-12-12T10:50:21.3858866Z with:
+2024-12-12T10:50:21.3859082Z   repository: PyataninJob/GitRunner
+2024-12-12T10:50:21.3859656Z   token: ***
+2024-12-12T10:50:21.3859843Z   ssh-strict: true
+2024-12-12T10:50:21.3860059Z   persist-credentials: true
+2024-12-12T10:50:21.3860288Z   clean: true
+2024-12-12T10:50:21.3860472Z   fetch-depth: 1
+2024-12-12T10:50:21.3860661Z   lfs: false
+2024-12-12T10:50:21.3860851Z   submodules: false
+2024-12-12T10:50:21.3861054Z   set-safe-directory: true
+2024-12-12T10:50:21.3861756Z ##[endgroup]
+2024-12-12T10:50:28.6990277Z Syncing repository: PyataninJob/GitRunner
+2024-12-12T10:50:28.7011787Z ##[group]Getting Git version info
+2024-12-12T10:50:28.7012369Z Working directory is 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\GitRunner\GitRunner'
+2024-12-12T10:50:28.7527250Z [command]"C:\Program Files\Git\cmd\git.exe" version
+2024-12-12T10:50:28.7866611Z git version 2.33.0.windows.2
+2024-12-12T10:50:28.7930884Z ##[endgroup]
+2024-12-12T10:50:28.7951300Z Copying 'C:\Users\pyata\.gitconfig' to 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_temp\ea6a7aff-888a-4152-b1ab-76f2c68b2191\.gitconfig'
+2024-12-12T10:50:28.7982741Z Temporarily overriding HOME='C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_temp\ea6a7aff-888a-4152-b1ab-76f2c68b2191' before making global git config changes
+2024-12-12T10:50:28.7984846Z Adding repository directory to the temporary git global config as a safe directory
+2024-12-12T10:50:28.7991776Z [command]"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\GitRunner\GitRunner
+2024-12-12T10:50:28.8319665Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --get remote.origin.url
+2024-12-12T10:50:28.8600763Z https://github.com/PyataninJob/GitRunner
+2024-12-12T10:50:28.8657438Z ##[group]Removing previously created refs, to avoid conflicts
+2024-12-12T10:50:28.8664624Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse --symbolic-full-name --verify --quiet HEAD
+2024-12-12T10:50:28.8912218Z HEAD
+2024-12-12T10:50:28.8963248Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse --symbolic-full-name --branches
+2024-12-12T10:50:28.9265032Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse --symbolic-full-name --remotes=origin
+2024-12-12T10:50:28.9509206Z refs/remotes/origin/master
+2024-12-12T10:50:28.9545943Z ##[endgroup]
+2024-12-12T10:50:28.9546678Z ##[group]Cleaning the repository
+2024-12-12T10:50:28.9553246Z [command]"C:\Program Files\Git\cmd\git.exe" clean -ffdx
+2024-12-12T10:50:28.9888164Z [command]"C:\Program Files\Git\cmd\git.exe" reset --hard HEAD
+2024-12-12T10:50:29.0414366Z HEAD is now at f3f063e Merge branch 'master' of https://github.com/PyataninJob/GitRunner
+2024-12-12T10:50:29.0456611Z ##[endgroup]
+2024-12-12T10:50:29.0463857Z ##[group]Disabling automatic garbage collection
+2024-12-12T10:50:29.0470659Z [command]"C:\Program Files\Git\cmd\git.exe" config --local gc.auto 0
+2024-12-12T10:50:29.0761327Z ##[endgroup]
+2024-12-12T10:50:29.0772957Z ##[group]Setting up auth
+2024-12-12T10:50:29.0773448Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2024-12-12T10:50:29.1067012Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2024-12-12T10:50:29.8141288Z ##[error]fatal: No url found for submodule path 'actions-runner/_work/GitRunner/GitRunner' in .gitmodules
+2024-12-12T10:50:29.8245093Z ##[error]The process 'C:\Program Files\Git\cmd\git.exe' failed with exit code 128
+2024-12-12T10:50:29.9229477Z Post job cleanup.
+2024-12-12T10:50:36.2058567Z [command]"C:\Program Files\Git\cmd\git.exe" version
+2024-12-12T10:50:36.2332229Z git version 2.33.0.windows.2
+2024-12-12T10:50:36.2412831Z Copying 'C:\Users\pyata\.gitconfig' to 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_temp\2ebfb830-b4d2-4ac8-85a9-7373fb7e1b2f\.gitconfig'
+2024-12-12T10:50:36.2440726Z Temporarily overriding HOME='C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_temp\2ebfb830-b4d2-4ac8-85a9-7373fb7e1b2f' before making global git config changes
+2024-12-12T10:50:36.2441602Z Adding repository directory to the temporary git global config as a safe directory
+2024-12-12T10:50:36.2450121Z [command]"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\GitRunner\GitRunner
+2024-12-12T10:50:36.2763122Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2024-12-12T10:50:36.3071156Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2024-12-12T10:50:36.9465867Z fatal: No url found for submodule path 'actions-runner/_work/GitRunner/GitRunner' in .gitmodules
+2024-12-12T10:50:37.0234669Z ##[warning]The process 'C:\Program Files\Git\cmd\git.exe' failed with exit code 128
+2024-12-12T10:50:37.0395500Z Cleaning up orphan processes
