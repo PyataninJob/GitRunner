@@ -273,3 +273,103 @@
 [2024-12-12 12:10:24Z INFO JobNotification] Entering JobCompleted Notification
 [2024-12-12 12:10:24Z INFO JobNotification] Entering EndMonitor
 [2024-12-12 12:10:24Z INFO MessageListener] Received job status event. JobState: Online
+[2024-12-12 12:12:44Z INFO MessageListener] Message '4617837791252522710' received from session '9ec25e47-b32d-48fb-a91e-72170884de38'.
+[2024-12-12 12:12:44Z INFO ConfigurationStore] HasCredentials()
+[2024-12-12 12:12:44Z INFO ConfigurationStore] stored True
+[2024-12-12 12:12:44Z INFO CredentialManager] GetCredentialProvider
+[2024-12-12 12:12:44Z INFO CredentialManager] Creating type OAuth
+[2024-12-12 12:12:44Z INFO CredentialManager] Creating credential type: OAuth
+[2024-12-12 12:12:44Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 12:12:44Z INFO ActionsRunServer] EstablishVssConnection
+[2024-12-12 12:12:44Z INFO ActionsRunServer] Establish connection with 100 seconds timeout.
+[2024-12-12 12:12:44Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-12 12:12:45Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-12 12:12:45Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 12:12:45Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 12:12:46Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-12 12:12:47Z INFO JobDispatcher] Job request 13 for plan 2926f16a-4fbb-4089-8878-b9c207312d54 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-12-12 12:12:47Z INFO JobDispatcher] Pull OrchestrationId 2926f16a-4fbb-4089-8878-b9c207312d54.build.__default from JWT claims
+[2024-12-12 12:12:47Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-12-12 12:12:47Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-12-12 12:12:47Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2024-12-12 12:12:47Z INFO Terminal] WRITE LINE: 2024-12-12 12:12:47Z: Running job: build
+[2024-12-12 12:12:47Z INFO JobDispatcher] Start renew job request 13 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-12 12:12:48Z INFO JobDispatcher] Successfully renew job request 13, job is valid till 12.12.2024 12:22:47
+[2024-12-12 12:12:48Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 12:12:48Z INFO ProcessInvokerWrapper] Starting process:
+[2024-12-12 12:12:48Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin\Runner.Worker.exe'
+[2024-12-12 12:12:48Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2452 2408'
+[2024-12-12 12:12:48Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 12:12:48Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-12-12 12:12:48Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-12-12 12:12:48Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-12-12 12:12:48Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-12-12 12:12:48Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-12-12 12:12:48Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-12-12 12:12:48Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-12-12 12:12:48Z INFO ProcessInvokerWrapper] Process started with process id 28644, waiting for process exit.
+[2024-12-12 12:12:48Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-12 12:12:48Z INFO ProcessChannel] Sending message of length 24392, with hash 'c104da61bd7aea1206f2eaf303b51b80ad1d97ea67c813976d72c7e0bc1e25d5'
+[2024-12-12 12:12:48Z INFO JobNotification] Entering JobStarted Notification
+[2024-12-12 12:12:48Z INFO JobNotification] Entering StartMonitor
+[2024-12-12 12:13:20Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-12 12:13:20Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-12 12:13:20Z INFO ProcessInvokerWrapper] Finished process 28644 with exit code 102, and elapsed time 00:00:31.8777413.
+[2024-12-12 12:13:20Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2024-12-12 12:13:20Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2024-12-12 12:13:20Z INFO Terminal] WRITE LINE: 2024-12-12 12:13:20Z: Job build completed with result: Failed
+[2024-12-12 12:13:20Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-12 12:13:20Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 13.
+[2024-12-12 12:13:20Z INFO JobNotification] Entering JobCompleted Notification
+[2024-12-12 12:13:20Z INFO JobNotification] Entering EndMonitor
+[2024-12-12 12:13:20Z INFO MessageListener] Received job status event. JobState: Online
+[2024-12-12 12:20:22Z INFO MessageListener] Message '4449860284035747744' received from session '9ec25e47-b32d-48fb-a91e-72170884de38'.
+[2024-12-12 12:20:22Z INFO ConfigurationStore] HasCredentials()
+[2024-12-12 12:20:22Z INFO ConfigurationStore] stored True
+[2024-12-12 12:20:22Z INFO CredentialManager] GetCredentialProvider
+[2024-12-12 12:20:22Z INFO CredentialManager] Creating type OAuth
+[2024-12-12 12:20:22Z INFO CredentialManager] Creating credential type: OAuth
+[2024-12-12 12:20:22Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 12:20:22Z INFO ActionsRunServer] EstablishVssConnection
+[2024-12-12 12:20:22Z INFO ActionsRunServer] Establish connection with 100 seconds timeout.
+[2024-12-12 12:20:22Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-12 12:20:23Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-12 12:20:23Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 12:20:23Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 12:20:24Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-12 12:20:24Z INFO JobDispatcher] Job request 14 for plan 95d2db97-468b-40a3-8f97-0c37230011a4 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-12-12 12:20:24Z INFO JobDispatcher] Pull OrchestrationId 95d2db97-468b-40a3-8f97-0c37230011a4.build.__default from JWT claims
+[2024-12-12 12:20:24Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-12-12 12:20:24Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-12-12 12:20:24Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2024-12-12 12:20:24Z INFO Terminal] WRITE LINE: 2024-12-12 12:20:24Z: Running job: build
+[2024-12-12 12:20:24Z INFO JobDispatcher] Start renew job request 14 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-12 12:20:25Z INFO JobDispatcher] Successfully renew job request 14, job is valid till 12.12.2024 12:30:24
+[2024-12-12 12:20:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 12:20:25Z INFO ProcessInvokerWrapper] Starting process:
+[2024-12-12 12:20:25Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin\Runner.Worker.exe'
+[2024-12-12 12:20:25Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2060 2624'
+[2024-12-12 12:20:25Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 12:20:25Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-12-12 12:20:25Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-12-12 12:20:25Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-12-12 12:20:25Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-12-12 12:20:25Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-12-12 12:20:25Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-12-12 12:20:25Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-12-12 12:20:25Z INFO ProcessInvokerWrapper] Process started with process id 15520, waiting for process exit.
+[2024-12-12 12:20:25Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-12 12:20:25Z INFO ProcessChannel] Sending message of length 24434, with hash '80f4ae7cdacc31c9d259f192ec4e4c1fce3d8b6a0ac49d5935a1f293a39c3c62'
+[2024-12-12 12:20:25Z INFO JobNotification] Entering JobStarted Notification
+[2024-12-12 12:20:25Z INFO JobNotification] Entering StartMonitor
+[2024-12-12 12:20:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-12 12:20:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-12 12:20:58Z INFO ProcessInvokerWrapper] Finished process 15520 with exit code 102, and elapsed time 00:00:32.6906723.
+[2024-12-12 12:20:58Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2024-12-12 12:20:58Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2024-12-12 12:20:58Z INFO Terminal] WRITE LINE: 2024-12-12 12:20:58Z: Job build completed with result: Failed
+[2024-12-12 12:20:58Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-12 12:20:58Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 14.
+[2024-12-12 12:20:58Z INFO JobNotification] Entering JobCompleted Notification
+[2024-12-12 12:20:58Z INFO JobNotification] Entering EndMonitor
+[2024-12-12 12:20:58Z INFO MessageListener] Received job status event. JobState: Online
