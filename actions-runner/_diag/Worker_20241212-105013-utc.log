@@ -2535,3 +2535,494 @@
 [2024-12-12 10:50:21Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_diag\blocks\a1b479b6-9ab9-427e-a622-efb33a2dcdc7_ffa40858-b70c-457f-bc34-5723fd4cb3d7.1
 [2024-12-12 10:50:22Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
 [2024-12-12 10:50:23Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2024-12-12 10:50:28Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2024-12-12 10:50:28Z INFO AddMaskCommandExtension] Add new secret mask with length of 76
+[2024-12-12 10:50:29Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2024-12-12 10:50:29Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper] Finished process 16408 with exit code 1, and elapsed time 00:00:08.4982822.
+[2024-12-12 10:50:29Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_temp\_runner_file_commands\step_summary_ea6d2648-ea73-4305-8f9b-2fba2d55116d) is empty; skipping attachment upload
+[2024-12-12 10:50:29Z INFO StepsRunner] Step result: Failed
+[2024-12-12 10:50:29Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v2",
+  "type": "node20",
+  "stage": "Main",
+  "stepId": "a60052d4-79a0-5821-3eeb-84adb9872c5b",
+  "stepContextName": "__actions_checkout",
+  "hasPreStep": false,
+  "hasPostStep": true,
+  "result": "failed",
+  "errorMessages": [
+    "No url found for submodule path 'actions-runner/_work/GitRunner/GitRunner' in .gitmodules",
+    "The process 'C:\\Program Files\\Git\\cmd\\git.exe' failed with exit code 128"
+  ],
+  "executionTimeInSeconds": 9,
+  "startTime": "2024-12-12T10:50:21.3203928Z",
+  "finishTime": "2024-12-12T10:50:29.896995Z"
+}.
+[2024-12-12 10:50:29Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2024-12-12 10:50:29Z INFO StepsRunner] Current state: job state = 'Failed'
+[2024-12-12 10:50:29Z INFO StepsRunner] Processing step: DisplayName='Set up Python'
+[2024-12-12 10:50:29Z INFO StepsRunner] Evaluating: success()
+[2024-12-12 10:50:29Z INFO StepsRunner] Result: false
+[2024-12-12 10:50:29Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2024-12-12 10:50:29Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2024-12-12 10:50:29Z INFO StepsRunner] Current state: job state = 'Failed'
+[2024-12-12 10:50:29Z INFO StepsRunner] Processing step: DisplayName='Install dependencies'
+[2024-12-12 10:50:29Z INFO StepsRunner] Evaluating: success()
+[2024-12-12 10:50:29Z INFO StepsRunner] Result: false
+[2024-12-12 10:50:29Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2024-12-12 10:50:29Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2024-12-12 10:50:29Z INFO StepsRunner] Current state: job state = 'Failed'
+[2024-12-12 10:50:29Z INFO StepsRunner] Processing step: DisplayName='Run tests'
+[2024-12-12 10:50:29Z INFO StepsRunner] Evaluating: success()
+[2024-12-12 10:50:29Z INFO StepsRunner] Result: false
+[2024-12-12 10:50:29Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2024-12-12 10:50:29Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2024-12-12 10:50:29Z INFO StepsRunner] Current state: job state = 'Failed'
+[2024-12-12 10:50:29Z INFO StepsRunner] Processing step: DisplayName='Post Run actions/checkout@v2'
+[2024-12-12 10:50:29Z INFO StepsRunner] Evaluating: always()
+[2024-12-12 10:50:29Z INFO StepsRunner] Result: true
+[2024-12-12 10:50:29Z INFO StepsRunner] Starting the step.
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work'
+[2024-12-12 10:50:29Z INFO StepsRunner] Which2: 'chcp'
+[2024-12-12 10:50:29Z INFO StepsRunner] Location: 'C:\WINDOWS\system32\chcp.COM'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper] Starting process:
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\system32\chcp.COM'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper] Process started with process id 11432, waiting for process exit.
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper] Finished process 11432 with exit code 0, and elapsed time 00:00:00.0116292.
+[2024-12-12 10:50:29Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Actions': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_actions'
+[2024-12-12 10:50:29Z INFO ActionManager] Load action that reference repository from 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_actions\actions\checkout\v2'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Actions': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_actions'
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2024-12-12 10:50:29Z INFO ActionManager] Action pre node.js file: N/A.
+[2024-12-12 10:50:29Z INFO ActionManager] Action node.js file: dist/index.js.
+[2024-12-12 10:50:29Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Temp': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_temp'
+[2024-12-12 10:50:29Z INFO ExecutionContext] Write event payload to C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_temp\_github_workflow\event.json
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Work': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Temp': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_temp'
+[2024-12-12 10:50:29Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "PyataninJob/GitRunner"
+}
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2024-12-12 10:50:29Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2024-12-12 10:50:29Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command set-env
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command set-output
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command save-state
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command add-path
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command warning
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command error
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command notice
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command debug
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command group
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2024-12-12 10:50:29Z INFO ActionCommandManager] Register action command extension for command echo
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner'
+[2024-12-12 10:50:29Z INFO HostContext] Well known directory 'Externals': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\externals'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper] Starting process:
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\externals\node20\bin\node.exe'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_actions\actions\checkout\v2\dist/index.js"'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\GitRunner\GitRunner'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-12-12 10:50:29Z INFO ProcessInvokerWrapper] Process started with process id 17276, waiting for process exit.
+[2024-12-12 10:50:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a60052d4-79a0-5821-3eeb-84adb9872c5b', success rate: 1/1.
+[2024-12-12 10:50:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record '05fdddc0-dcef-4923-93b7-24739adf45b1', success rate: 1/1.
+[2024-12-12 10:50:30Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-12-12 10:50:30Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_diag\blocks\a1b479b6-9ab9-427e-a622-efb33a2dcdc7_a60052d4-79a0-5821-3eeb-84adb9872c5b.1
+[2024-12-12 10:50:30Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2024-12-12 10:50:31Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2024-12-12 10:50:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 10:50:31Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner'
+[2024-12-12 10:50:31Z INFO HostContext] Well known directory 'Work': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work'
+[2024-12-12 10:50:36Z INFO AddMaskCommandExtension] Add new secret mask with length of 32
+[2024-12-12 10:50:36Z INFO JobServerQueue] Try to append 1 batches web console lines for record '05fdddc0-dcef-4923-93b7-24739adf45b1', success rate: 1/1.
+[2024-12-12 10:50:36Z INFO JobServerQueue] Try to append 1 batches web console lines for record '05fdddc0-dcef-4923-93b7-24739adf45b1', success rate: 1/1.
+[2024-12-12 10:50:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-12 10:50:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-12 10:50:37Z INFO ProcessInvokerWrapper] Finished process 17276 with exit code 0, and elapsed time 00:00:07.1104498.
+[2024-12-12 10:50:37Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_temp\_runner_file_commands\step_summary_20c3109b-84ca-48f4-843c-19a13bf1f6ed) is empty; skipping attachment upload
+[2024-12-12 10:50:37Z INFO StepsRunner] Step result: 
+[2024-12-12 10:50:37Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v2",
+  "type": "node20",
+  "stage": "Post",
+  "stepId": "05fdddc0-dcef-4923-93b7-24739adf45b1",
+  "result": "succeeded",
+  "errorMessages": [
+    "The process 'C:\\Program Files\\Git\\cmd\\git.exe' failed with exit code 128"
+  ],
+  "executionTimeInSeconds": 8,
+  "startTime": "2024-12-12T10:50:29.9000109Z",
+  "finishTime": "2024-12-12T10:50:37.0348617Z"
+}.
+[2024-12-12 10:50:37Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-12-12 10:50:37Z INFO StepsRunner] Current state: job state = 'Failed'
+[2024-12-12 10:50:37Z INFO JobRunner] Finalize job.
+[2024-12-12 10:50:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 10:50:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner'
+[2024-12-12 10:50:37Z INFO HostContext] Well known directory 'Diag': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_diag'
+[2024-12-12 10:50:37Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 10:50:37Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner'
+[2024-12-12 10:50:37Z INFO HostContext] Well known directory 'Diag': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_diag'
+[2024-12-12 10:50:37Z INFO JobExtension] Initialize Env context
+[2024-12-12 10:50:37Z INFO JobExtension] Initialize steps context
+[2024-12-12 10:50:37Z INFO JobExtension] Total accessible running process: 249.
+[2024-12-12 10:50:37Z INFO JobExtension] Inspecting process environment variables. PID: 3320 (WmiPrvSE)
+[2024-12-12 10:50:37Z INFO JobExtension] Wait for all connectivity checks to finish.
+[2024-12-12 10:50:37Z INFO JobExtension] Connectivity check result: GitHub.Runner.Worker.JobExtension+CheckResult
+[2024-12-12 10:50:37Z INFO JobExtension] Connectivity check result: GitHub.Runner.Worker.JobExtension+CheckResult
+[2024-12-12 10:50:37Z INFO JobExtension] Connectivity check result: GitHub.Runner.Worker.JobExtension+CheckResult
+[2024-12-12 10:50:37Z INFO JobExtension] Connectivity check result: GitHub.Runner.Worker.JobExtension+CheckResult
+[2024-12-12 10:50:37Z INFO JobExtension] Connectivity check result: GitHub.Runner.Worker.JobExtension+CheckResult
+[2024-12-12 10:50:37Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "64cd3933-007f-4379-a613-8a7eb050375f",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2024-12-12T10:50:37.0388944Z",
+  "finishTime": "2024-12-12T10:50:37.0653206Z"
+}.
+[2024-12-12 10:50:37Z INFO JobRunner] Job result after all job steps finish: Failed
+[2024-12-12 10:50:37Z INFO JobRunner] Completing the job execution context.
+[2024-12-12 10:50:37Z INFO JobRunner] Shutting down the job server queue.
+[2024-12-12 10:50:37Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2024-12-12 10:50:37Z INFO JobServerQueue] All queue process task stopped.
+[2024-12-12 10:50:37Z INFO JobServerQueue] Try to append 1 batches web console lines for record '05fdddc0-dcef-4923-93b7-24739adf45b1', success rate: 1/1.
+[2024-12-12 10:50:37Z INFO JobServerQueue] Try to append 1 batches web console lines for record '64cd3933-007f-4379-a613-8a7eb050375f', success rate: 1/1.
+[2024-12-12 10:50:37Z INFO JobServerQueue] Web console line queue drained.
+[2024-12-12 10:50:37Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2024-12-12 10:50:39Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2024-12-12 10:50:39Z INFO JobServerQueue] File upload queue drained.
+[2024-12-12 10:50:39Z INFO JobServerQueue] Starting results-based upload queue...
+[2024-12-12 10:50:39Z INFO JobServerQueue] Uploading 3 file(s) in one shot through results service.
+[2024-12-12 10:50:39Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-12-12 10:50:39Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_diag\blocks\a1b479b6-9ab9-427e-a622-efb33a2dcdc7_05fdddc0-dcef-4923-93b7-24739adf45b1.1
+[2024-12-12 10:50:39Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-12-12 10:50:39Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_diag\blocks\a1b479b6-9ab9-427e-a622-efb33a2dcdc7_64cd3933-007f-4379-a613-8a7eb050375f.1
+[2024-12-12 10:50:40Z INFO JobServerQueue] Got a job log file to send to results service.
+[2024-12-12 10:50:40Z INFO JobServerQueue] Starting upload of job log file to results service ResultsLog, C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_diag\blocks\a1b479b6-9ab9-427e-a622-efb33a2dcdc7_ca395085-040a-526b-2ce8-bdc85f692774.1
+[2024-12-12 10:50:41Z INFO JobServerQueue] Tried to upload 3 file(s) to results, success rate: 3/3.
+[2024-12-12 10:50:41Z INFO JobServerQueue] Results upload queue drained.
+[2024-12-12 10:50:41Z INFO JobServerQueue] Timeline update queue drained.
+[2024-12-12 10:50:41Z INFO JobServerQueue] Disposing job server ...
+[2024-12-12 10:50:41Z INFO JobServerQueue] Disposing results server ...
+[2024-12-12 10:50:41Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2024-12-12 10:50:41Z INFO JobServerQueue] Actions upload time: 2256 ms, Result upload time: 4404 ms
+[2024-12-12 10:50:41Z INFO TempDirectoryManager] Cleaning runner temp folder: C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_work\_temp
+[2024-12-12 10:50:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\bin'
+[2024-12-12 10:50:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner'
+[2024-12-12 10:50:41Z INFO HostContext] Well known directory 'Diag': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_diag'
+[2024-12-12 10:50:41Z INFO HostContext] Well known config file 'Telemetry': 'C:\Users\pyata\Desktop\Lab3sem\Git\rep\actions-runner\_diag\.telemetry'
+[2024-12-12 10:50:41Z INFO JobRunner] Raising job completed event
+[2024-12-12 10:50:41Z INFO Worker] Job completed.
