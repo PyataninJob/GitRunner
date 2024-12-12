@@ -1,0 +1,169 @@
+[2024-12-12 10:04:28Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin'
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner'
+[2024-12-12 10:04:28Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.credentials'
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin'
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner'
+[2024-12-12 10:04:28Z INFO HostContext] Well known config file 'Runner': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.runner'
+[2024-12-12 10:04:28Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2024-12-12 10:04:28Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.26100.
+[2024-12-12 10:04:28Z INFO Listener] Version: 2.321.0
+[2024-12-12 10:04:28Z INFO Listener] Commit: e249007931b7c8e857797fa259c167f0bd4f997a
+[2024-12-12 10:04:28Z INFO Listener] Culture: ru-RU
+[2024-12-12 10:04:28Z INFO Listener] UI Culture: ru-RU
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin'
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner'
+[2024-12-12 10:04:28Z INFO Listener] Validating directory permissions for: 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner'
+[2024-12-12 10:04:28Z INFO CommandLineParser] Parse
+[2024-12-12 10:04:28Z INFO CommandLineParser] Parsing 1 args
+[2024-12-12 10:04:28Z INFO CommandLineParser] parsing argument
+[2024-12-12 10:04:28Z INFO CommandLineParser] HasArgs: False
+[2024-12-12 10:04:28Z INFO CommandLineParser] Adding Command: run
+[2024-12-12 10:04:28Z INFO Listener] Arguments parsed
+[2024-12-12 10:04:28Z INFO Runner] ExecuteCommand
+[2024-12-12 10:04:28Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin\Runner.Listener.dll
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin'
+[2024-12-12 10:04:28Z INFO ConfigurationStore] binPath: C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin'
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner'
+[2024-12-12 10:04:28Z INFO ConfigurationStore] RootFolder: C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin'
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner'
+[2024-12-12 10:04:28Z INFO HostContext] Well known config file 'Runner': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.runner'
+[2024-12-12 10:04:28Z INFO ConfigurationStore] ConfigFilePath: C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.runner
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin'
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner'
+[2024-12-12 10:04:28Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.credentials'
+[2024-12-12 10:04:28Z INFO ConfigurationStore] CredFilePath: C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.credentials
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin'
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner'
+[2024-12-12 10:04:28Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.credentials_migrated'
+[2024-12-12 10:04:28Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.credentials_migrated
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin'
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner'
+[2024-12-12 10:04:28Z INFO HostContext] Well known config file 'Service': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.service'
+[2024-12-12 10:04:28Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.service
+[2024-12-12 10:04:28Z INFO CommandSettings] Flag 'help': 'False'
+[2024-12-12 10:04:28Z INFO CommandSettings] Flag 'version': 'False'
+[2024-12-12 10:04:28Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-12-12 10:04:28Z INFO CommandSettings] Flag 'check': 'False'
+[2024-12-12 10:04:28Z INFO CommandSettings] Command 'configure': 'False'
+[2024-12-12 10:04:28Z INFO CommandSettings] Command 'remove': 'False'
+[2024-12-12 10:04:28Z INFO CommandSettings] Command 'warmup': 'False'
+[2024-12-12 10:04:28Z INFO ConfigurationManager] LoadSettings
+[2024-12-12 10:04:28Z INFO ConfigurationStore] IsConfigured()
+[2024-12-12 10:04:28Z INFO ConfigurationStore] IsConfigured: True
+[2024-12-12 10:04:28Z INFO ConfigurationManager] Is configured: True
+[2024-12-12 10:04:28Z INFO ConfigurationStore] Read setting file: 303 chars
+[2024-12-12 10:04:28Z INFO ConfigurationManager] Settings Loaded
+[2024-12-12 10:04:28Z INFO ConfigurationStore] IsServiceConfigured()
+[2024-12-12 10:04:28Z INFO ConfigurationStore] IsServiceConfigured: False
+[2024-12-12 10:04:28Z INFO CommandSettings] Command 'run': 'True'
+[2024-12-12 10:04:28Z INFO ConfigurationStore] IsConfigured()
+[2024-12-12 10:04:28Z INFO ConfigurationStore] IsConfigured: True
+[2024-12-12 10:04:28Z INFO ConfigurationManager] Is configured: True
+[2024-12-12 10:04:28Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2024-12-12 10:04:28Z INFO Runner] Set runner startup type - Manual
+[2024-12-12 10:04:28Z INFO CommandSettings] Flag 'once': 'False'
+[2024-12-12 10:04:28Z INFO CommandSettings] Flag 'once': 'False'
+[2024-12-12 10:04:28Z INFO Runner] RunAsync
+[2024-12-12 10:04:28Z INFO ConfigurationManager] LoadSettings
+[2024-12-12 10:04:28Z INFO ConfigurationStore] IsConfigured()
+[2024-12-12 10:04:28Z INFO ConfigurationStore] IsConfigured: True
+[2024-12-12 10:04:28Z INFO ConfigurationManager] Is configured: True
+[2024-12-12 10:04:28Z INFO ConfigurationManager] Settings Loaded
+[2024-12-12 10:04:28Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "PYATANIN",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus3.actions.githubusercontent.com/aU836Xnwm0m0IwgkgdsbcLzVgoC048BWw7qD818y5ZGZUEnlJB/",
+  "GitHubUrl": "https://github.com/PyataninJob/GitRunner",
+  "WorkFolder": "_work"
+}
+[2024-12-12 10:04:28Z INFO MessageListener] Loading Credentials
+[2024-12-12 10:04:28Z INFO ConfigurationStore] HasCredentials()
+[2024-12-12 10:04:28Z INFO ConfigurationStore] stored True
+[2024-12-12 10:04:28Z INFO CredentialManager] GetCredentialProvider
+[2024-12-12 10:04:28Z INFO CredentialManager] Creating type OAuth
+[2024-12-12 10:04:28Z INFO CredentialManager] Creating credential type: OAuth
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin'
+[2024-12-12 10:04:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner'
+[2024-12-12 10:04:28Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.credentials_rsaparams'
+[2024-12-12 10:04:28Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 10:04:28Z INFO MessageListener] Attempt to create session.
+[2024-12-12 10:04:28Z INFO MessageListener] Connecting to the Runner Server...
+[2024-12-12 10:04:28Z INFO RunnerServer] EstablishVssConnection
+[2024-12-12 10:04:28Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-12-12 10:04:28Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-12 10:04:28Z INFO RunnerServer] EstablishVssConnection
+[2024-12-12 10:04:28Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-12-12 10:04:28Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-12 10:04:28Z INFO RunnerServer] EstablishVssConnection
+[2024-12-12 10:04:28Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-12-12 10:04:28Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-12 10:04:29Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-12 10:04:29Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-12 10:04:29Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-12 10:04:29Z INFO MessageListener] VssConnection created
+[2024-12-12 10:04:29Z INFO Terminal] WRITE LINE: 
+[2024-12-12 10:04:29Z INFO Terminal] WRITE LINE: 
+[2024-12-12 10:04:30Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 10:04:30Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 10:04:31Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-12 10:04:31Z INFO MessageListener] Session created.
+[2024-12-12 10:04:31Z INFO Terminal] WRITE LINE: Current runner version: '2.321.0'
+[2024-12-12 10:04:31Z INFO Terminal] WRITE LINE: 2024-12-12 10:04:31Z: Listening for Jobs
+[2024-12-12 10:04:31Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2024-12-12 10:04:31Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 10:04:32Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-12 10:09:54Z INFO MessageListener] Message '5582043019076823163' received from session '17c13e96-64dc-400f-a7aa-355a3c10bde0'.
+[2024-12-12 10:09:54Z INFO ConfigurationStore] HasCredentials()
+[2024-12-12 10:09:54Z INFO ConfigurationStore] stored True
+[2024-12-12 10:09:54Z INFO CredentialManager] GetCredentialProvider
+[2024-12-12 10:09:54Z INFO CredentialManager] Creating type OAuth
+[2024-12-12 10:09:54Z INFO CredentialManager] Creating credential type: OAuth
+[2024-12-12 10:09:54Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 10:09:54Z INFO ActionsRunServer] EstablishVssConnection
+[2024-12-12 10:09:54Z INFO ActionsRunServer] Establish connection with 100 seconds timeout.
+[2024-12-12 10:09:54Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-12 10:09:55Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-12 10:09:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 10:09:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\.credentials_rsaparams
+[2024-12-12 10:09:56Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-12 10:09:56Z INFO JobDispatcher] Job request 1 for plan 1896b5ac-5454-4d70-95b5-a304a6052c30 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-12-12 10:09:56Z INFO JobDispatcher] Pull OrchestrationId 1896b5ac-5454-4d70-95b5-a304a6052c30.build.__default from JWT claims
+[2024-12-12 10:09:56Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-12-12 10:09:56Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-12-12 10:09:56Z INFO Terminal] WRITE LINE: 2024-12-12 10:09:56Z: Running job: build
+[2024-12-12 10:09:56Z INFO JobDispatcher] Start renew job request 1 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-12 10:09:57Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 12.12.2024 10:19:57
+[2024-12-12 10:09:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin'
+[2024-12-12 10:09:57Z INFO ProcessInvokerWrapper] Starting process:
+[2024-12-12 10:09:57Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin\Runner.Worker.exe'
+[2024-12-12 10:09:57Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2164 1652'
+[2024-12-12 10:09:57Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\pyata\Desktop\Лабы 3 сем\Git\rep\actions-runner\bin'
+[2024-12-12 10:09:57Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-12-12 10:09:57Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-12-12 10:09:57Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-12-12 10:09:57Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-12-12 10:09:57Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-12-12 10:09:57Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-12-12 10:09:57Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-12-12 10:09:57Z INFO ProcessInvokerWrapper] Process started with process id 17124, waiting for process exit.
+[2024-12-12 10:09:57Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-12 10:09:57Z INFO ProcessChannel] Sending message of length 24427, with hash '883dadc99976dfc7206b2cbcc853b6f0608937368f32d32d0d40f50e3bbef8fd'
+[2024-12-12 10:09:58Z INFO JobNotification] Entering JobStarted Notification
+[2024-12-12 10:09:58Z INFO JobNotification] Entering StartMonitor
+[2024-12-12 10:10:58Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 12.12.2024 10:20:57
+[2024-12-12 10:11:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-12 10:11:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-12 10:11:42Z INFO ProcessInvokerWrapper] Finished process 17124 with exit code 102, and elapsed time 00:01:44.5101683.
+[2024-12-12 10:11:42Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 102
+[2024-12-12 10:11:42Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Failed
+[2024-12-12 10:11:42Z INFO Terminal] WRITE LINE: 2024-12-12 10:11:42Z: Job build completed with result: Failed
+[2024-12-12 10:11:42Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-12 10:11:42Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 1.
+[2024-12-12 10:11:42Z INFO JobNotification] Entering JobCompleted Notification
+[2024-12-12 10:11:42Z INFO JobNotification] Entering EndMonitor
+[2024-12-12 10:11:42Z INFO MessageListener] Received job status event. JobState: Online
